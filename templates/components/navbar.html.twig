@@ -1,0 +1,32 @@
+<!-- Updated Navbar HTML -->
+<nav class="navbar-custom">
+  <div class="navbar-container">
+    <a class="navbar-brand" href="{{ path('app_event_index') }}">Vienna Events</a>
+
+    <ul class="navbar-links">
+      <li class="nav-item">
+        <a href="{{ path('app_event_arts') }}">Arts</a>
+      </li>
+      <li class="nav-item">
+        <a href="{{ path('app_event_cinema') }}">Cinema</a>
+      </li>
+      <li class="nav-item">
+        <a href="{{ path('app_event_music') }}">Music</a>
+      </li>
+      <li class="nav-item">
+        <a href="{{ path('app_event_sports') }}">Sports</a>
+      </li>
+      <li class="nav-item">
+        <a href="{{ path('app_event_theater') }}">Theater</a>
+      </li>
+    </ul>
+
+    <div class="navbar-actions">
+      <a class="btn-create" href="{{ path('app_event_new') }}">Create New</a>
+    </div>
+
+    <div class="navbar-toggle">
+      <span class="toggle-icon"></span>
+    </div>
+  </div>
+</nav>
